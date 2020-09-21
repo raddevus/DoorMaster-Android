@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DoorMaster</string>
+    <string name="activate_button">Open/Close</string>
+</resources>
