@@ -138,9 +138,9 @@ class ConnectThread : Thread()  {
             logViewAdapter?.add("Connected")
             logViewAdapter?.notifyDataSetChanged()
 
-            mmOutStream?.write(byteArrayOf(65, 66))
-            logViewAdapter?.add("Success; Wrote 2 bytes!")
-            logViewAdapter?.notifyDataSetChanged()
+            // mmOutStream?.write(byteArrayOf(65, 66))
+            // logViewAdapter?.add("Success; Wrote 2 bytes!")
+            // logViewAdapter?.notifyDataSetChanged()
 
         } catch (connectException: IOException) {
             // Unable to connect; close the socket and get out
